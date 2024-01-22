@@ -1,5 +1,5 @@
 {
-  "name": "@rmh/star-rating",
+  "name": "rmh-react-star-rating",
   "version": "1.0.0",
   "description": "Star rating module to use in react applications",
   "main": "index.js",
