@@ -15,6 +15,10 @@
   ],
   "author": "Harish RM",
   "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.7",
