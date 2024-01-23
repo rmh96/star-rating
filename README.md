@@ -1,6 +1,7 @@
 A customizable and easy-to-use React star rating component that seamlessly integrates into your projects, providing a visually appealing way for users to rate and review content.
 
 **Download command:**
+
 npm i rmh-react-star-rating
 
 **Code Snippet:**
@@ -9,18 +10,17 @@ import React from "react";
 import StarRating from "rmh-react-star-rating";
 
 const YourComponent = () => {
-return (
-<div className="w-[600px] h-[80px] border-2">
-{/* Specify your box width and height; stars will fit into that space. /}
-<StarRating
-noOfStars={10}
-starFillColor={"yellow"}
-starBolderColor={"red"}
-timeOutToFade={true}
-{/ resetFilledStar={false} - Set this value to a state if you have a reset button */}
-/>
-</div>
-);
+  return (
+    <div className="w-[600px] h-[80px] border-2">
+      {/*Specify your box width and height; stars will fit into that space. */}
+      <StarRating
+        noOfStars={10}
+        starFillColor={"yellow"}
+        starBolderColor={"red"}
+        // resetFilledStar={false} - Set this value to a state if you have a reset button
+      />
+    </div>
+  );
 };
 
 export default YourComponent;
@@ -39,7 +39,9 @@ export default YourComponent;
 | `resetFilledStar` (Boolean) | Manually pass a boolean value to reset the filled colors (works like toggling a Boolean value)  |
 
 
+
 **Peer Dependencies:**
+
 “react”: “>=16.8.0”,
 “react-dom”: “>=16.8.0”
 
