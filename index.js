@@ -20,6 +20,8 @@ var StarRating = function StarRating(_ref) {
     starFillColor = _ref.starFillColor,
     starBorderColor = _ref.starBorderColor,
     timeOutToFade = _ref.timeOutToFade,
+    _ref$timeDalayToFade = _ref.timeDalayToFade,
+    timeDalayToFade = _ref$timeDalayToFade === void 0 ? 2000 : _ref$timeDalayToFade,
     resetFilledStar = _ref.resetFilledStar;
   var _useState = (0, _react.useState)([]),
     _useState2 = _slicedToArray(_useState, 2),
@@ -46,7 +48,7 @@ var StarRating = function StarRating(_ref) {
   (0, _react.useEffect)(function () {
     timeOutToFade && setTimeout(function () {
       setClickedStar(-1);
-    }, 2000);
+    }, timeDalayToFade);
   }, [clickedStar]);
   (0, _react.useEffect)(function () {
     setClickedStar(-1);

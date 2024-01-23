@@ -6,6 +6,7 @@ const StarRating = ({
   starFillColor,
   starBorderColor,
   timeOutToFade,
+  timeDalayToFade = 2000,
   resetFilledStar,
 }) => {
   const [hoverStar, setHoverStar] = useState([]);
@@ -25,7 +26,7 @@ const StarRating = ({
     timeOutToFade &&
       setTimeout(() => {
         setClickedStar(-1);
-      }, 2000);
+      }, timeDalayToFade);
   }, [clickedStar]);
 
   useEffect(() => {

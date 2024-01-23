@@ -1,6 +1,6 @@
 {
   "name": "rmh-react-star-rating",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Star rating module to use in react applications",
   "main": "index.js",
   "scripts": {
