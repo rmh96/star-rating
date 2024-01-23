@@ -34,8 +34,8 @@ export default YourComponent;
 | `noOfStars` (int) * | Specify how many stars you want in the given width                                            |
 | `starFillColor` (string) * | Specify your customized color to fill in the stars (Default White)                          |
 | `starBorderColor` (string) | Specify the border color for the star (Default Black)                                          |
-| `timeOutToFade` (int) | After the user clicks the star, the selected star’s filled color will be reset after the given time Default value **true** |
-| `timeDalayToFade` (int) | Specify the time delay to reset the filled stars (e.g., 1000 or 2000 ms) Default value **2000**, Note: This will be used when timeOutToFade is active, if you set it as false then this will be no use |
+| `timeOutToFade` (int) | After the user clicks the star, the selected star’s filled color will be reset after the given time |
+| `timeDelayToFade` (int) | Specify the time delay to reset the filled stars (e.g., 1000 or 2000 ms) Default value **2000**, Note: This will be used when timeOutToFade is active, if you set it as false then this will be no use |
 | `resetFilledStar` (Boolean) | Manually pass a boolean value to reset the filled colors (works like toggling a Boolean value)  |
 
 
